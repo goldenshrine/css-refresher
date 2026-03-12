@@ -1,0 +1,85 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* sizing- using % , it occupies the percetage of display   */
+/* #main{
+    height: 50%;
+    width: 30%;
+    background-color: black;
+
+} */
+
+
+/* sizing- using px , it occupies the pixels of display   */
+/* #main{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+} */
+
+
+/* margine:- 2 elmnts ke beech mein space and padding :-ek hi elmnt ke andar ka space  */
+#main{
+    /* height: 100px;
+    width: 100px;
+    margin: 50px;  50px marginm from all around */
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 40px 70px; */
+    /* background-color: red; */
+}
+/* 
+#main{
+    height: 40%;
+    width: 20%;
+    background-color: red;
+    padding: 20px;
+
+}  */
+
+#main{
+    /* height: 100%;
+    width: 100%;
+    background-image: url(https://www.19fortyfive.com/wp-content/uploads/2022/03/S-300.jpg);
+    background-size:cover;  /*pura background cover karne ki liye */
+    /* background-position: bottom;   badi images ki position set karne ki liye */
+ 
+
+} 
+
+
+#car1{
+   height: 120px;
+   width: 100px;
+   text-align: center;
+   background-color: red;
+}
+#car2{
+    height: 90px;
+    width: 110px;
+    /* position:absolute; element ko upar  utha deta hai 
+    top:10%;  position set krne ke liye use hote hain
+    left: 30%; */
+    background-color: violet;
+    text-align: center;
+ }
+
+ #car3{
+    height: 110px;
+    width: 130px;
+    text-align: center;
+    background-color: green;
+ }
