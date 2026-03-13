@@ -83,3 +83,21 @@ html,body{
     text-align: center;
     background-color: green;
  }
+
+#box{
+    height: 300px;
+    position: relative;
+    width: 300px;
+    background-color: red;
+    text-align: center;
+
+}
+
+#chhota{
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    width: 100px;
+    background-color: yellow;
+    text-align: center;
+}
